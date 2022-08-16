@@ -54,9 +54,10 @@
 }
 
 #result{
-    height:200px;
-    width:400px;
-    background-color:aquamarine;
+    /* height:200px; */
+    /* width:400px; */
+    /* background-color:aquamarine; */
+    background-image: url("back.jpg");
     text-align: center;
     font-size: medium;
     margin: 1rem auto;
