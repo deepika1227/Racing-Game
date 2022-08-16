@@ -58,11 +58,13 @@
     /* width:400px; */
     /* background-color:aquamarine; */
     background-image: url("back.jpg");
+    height:100%;
+    background-repeat: no-repeat;
     text-align: center;
     font-size: medium;
     margin: 1rem auto;
     border-radius: 20px;
-    display:none;
+    display:flex;
 }
 
 #score{
