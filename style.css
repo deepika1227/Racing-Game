@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#race{
+    height:500px;
+    width:390px;
+    border: 1px solid black;
+    margin: 1rem auto;
+    background: url("images/bg.jpg");
+    background-size: contain;
+    align-items: center;
+    overflow: hidden;
+}
+
+#redcar{
+    height: 100px;
+    width:130px;
+    /* background-color: red; */
+    position:relative;
+    top:250px;
+    left:130px;
+    text-align: center;
+}
+
+#redcar img{
+    height: 100px;
+}
+
+#bluecar{
+    height: 100px;
+    width: 130px;
+    /* background-color: black; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation: move 2s linear infinite;
+    text-align: center;
+}
+
+#bluecar img{
+    height:100px;
+}
+
+@keyframes move {
+0%
+{
+    top:0px;
+}
+100%{
+    top:501px;
+}
+}
+
+#result{
+    height:200px;
+    width:400px;
+    background-color:aquamarine;
+    text-align: center;
+    font-size: medium;
+    margin: 1rem auto;
+    border-radius: 20px;
+    display:none;
+}
+
+#score{
+    font-size:larger;
+    color:red;
+}
+
+#btn_restart{
+    height:50px;
+    width:100px;
+    background-color:darkred;
+    color:darkgoldenrod;
+    text-align: center;
+    font-size: medium;
+    border-radius: 20px;
+}
